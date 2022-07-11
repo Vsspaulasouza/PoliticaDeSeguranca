@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Inicial</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles/reset.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/inicial.css' %}" />
   </head>
   <body>
-    <a href="/chatbot">Chatbot</a>
-    <a href="/politica">Política de segurança</a>
+    <div class="div-1">
+      <a href="/chatbot" class="a-1">Chatbot</a>
+    </div>
+    <div class="div-2">
+      <a href="/politica" class="a-2">Política de segurança</a>
+    </div>
   </body>
 </html>

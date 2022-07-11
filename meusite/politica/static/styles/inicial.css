@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+div {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.div-1 {
+  background-color: #223b3f;
+}
+
+.div-2 {
+  background-color: #beb9a5;
+}
+
+a {
+  padding: 50px;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 30px;
+}
+
+a:hover {
+  transition: 400ms;
+  transform: scale(1.1);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.a-1 {
+  background-color: #8c8870;
+  color: #020a09;
+}
+
+.a-2 {
+  background-color: #8c8870;
+  color: #020a09;
+}
