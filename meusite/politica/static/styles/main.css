@@ -103,6 +103,18 @@ body {
   margin-top: 25px;
 }
 
+.parteCentral p ~ h3 {
+  margin-top: 20px;
+}
+
+.parteCentral h3 ~ h2 {
+  margin-top: 15px;
+}
+
+.parteCentral h2 ~ h3 {
+  margin-top: 15px;
+}
+
 .parteCentral h3 {
   font-size: 2rem;
   font-weight: 500;
